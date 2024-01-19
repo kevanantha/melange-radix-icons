@@ -1,0 +1,7 @@
+(library
+ (name RadixIcons)
+ (public_name melange-radix-icons)
+ (libraries reason-react)
+ (modes melange)
+ (preprocess
+  (pps melange.ppx reason-react-ppx)))

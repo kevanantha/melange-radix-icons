@@ -9,8 +9,9 @@ module Accessibility = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -30,8 +31,9 @@ module ActivityLog = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -51,8 +53,9 @@ module AlignBaseline = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -72,8 +75,9 @@ module AlignBottom = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -93,8 +97,9 @@ module AlignCenterHorizontally = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -114,8 +119,9 @@ module AlignCenterVertically = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -135,8 +141,9 @@ module AlignLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -156,8 +163,9 @@ module AlignRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -177,8 +185,9 @@ module AlignTop = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -198,8 +207,9 @@ module AllSides = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -219,8 +229,9 @@ module Angle = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -240,8 +251,9 @@ module Archive = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -261,8 +273,9 @@ module ArrowBottomLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -282,8 +295,9 @@ module ArrowBottomRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -303,8 +317,9 @@ module ArrowDown = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -324,8 +339,9 @@ module ArrowLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -345,8 +361,9 @@ module ArrowRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -366,8 +383,9 @@ module ArrowTopLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -387,8 +405,9 @@ module ArrowTopRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -408,8 +427,9 @@ module ArrowUp = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -429,8 +449,9 @@ module AspectRatio = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -450,8 +471,9 @@ module Avatar = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -471,8 +493,9 @@ module Backpack = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -492,8 +515,9 @@ module Badge = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -513,8 +537,9 @@ module BarChart = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -534,8 +559,9 @@ module Bell = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -555,8 +581,9 @@ module BlendingMode = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -576,8 +603,9 @@ module BookmarkFilled = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -597,8 +625,9 @@ module Bookmark = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -618,8 +647,9 @@ module BorderAll = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -639,8 +669,9 @@ module BorderBottom = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -660,8 +691,9 @@ module BorderDashed = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -681,8 +713,9 @@ module BorderDotted = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -702,8 +735,9 @@ module BorderLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -723,8 +757,9 @@ module BorderNone = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -744,8 +779,9 @@ module BorderRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -765,8 +801,9 @@ module BorderSolid = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -786,8 +823,9 @@ module BorderSplit = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -807,8 +845,9 @@ module BorderStyle = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -828,8 +867,9 @@ module BorderTop = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -849,8 +889,9 @@ module BorderWidth = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -870,8 +911,9 @@ module Box = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -891,8 +933,9 @@ module BoxModel = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -912,8 +955,9 @@ module Button = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -933,8 +977,9 @@ module Calendar = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -954,8 +999,9 @@ module Camera = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -975,8 +1021,9 @@ module CardStack = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -996,8 +1043,9 @@ module CardStackMinus = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1017,8 +1065,9 @@ module CardStackPlus = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1038,8 +1087,9 @@ module CaretDown = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1059,8 +1109,9 @@ module CaretLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1080,8 +1131,9 @@ module CaretRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1101,8 +1153,9 @@ module CaretSort = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1122,8 +1175,9 @@ module CaretUp = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1143,8 +1197,9 @@ module ChatBubble = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1164,8 +1219,9 @@ module CheckCircled = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1185,8 +1241,9 @@ module Check = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1206,8 +1263,9 @@ module Checkbox = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1227,8 +1285,9 @@ module ChevronDown = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1248,8 +1307,9 @@ module ChevronLeft = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1269,8 +1329,9 @@ module ChevronRight = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1290,8 +1351,9 @@ module ChevronUp = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1311,8 +1373,9 @@ module CircleBackslash = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1332,8 +1395,9 @@ module Circle = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1353,8 +1417,9 @@ module ClipboardCopy = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1374,8 +1439,9 @@ module Clipboard = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1395,8 +1461,9 @@ module Clock = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1416,8 +1483,9 @@ module Code = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1437,8 +1505,9 @@ module CodeSandboxLogo = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1458,8 +1527,9 @@ module ColorWheel = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1479,8 +1549,9 @@ module ColumnSpacing = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1500,8 +1571,9 @@ module Columns = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1521,8 +1593,9 @@ module Commit = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1542,8 +1615,9 @@ module Component1 = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1563,8 +1637,9 @@ module Component2 = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1584,8 +1659,9 @@ module ComponentBoolean = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1605,8 +1681,9 @@ module ComponentInstance = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1626,8 +1703,9 @@ module ComponentNone = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1647,8 +1725,9 @@ module ComponentPlaceholder = {
 
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1667,8 +1746,9 @@ module Container = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1687,8 +1767,9 @@ module Cookie = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1707,8 +1788,9 @@ module Copy = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1727,8 +1809,9 @@ module CornerBottomLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1747,8 +1830,9 @@ module CornerBottomRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1767,8 +1851,9 @@ module CornerTopLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1787,8 +1872,9 @@ module CornerTopRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1807,8 +1893,9 @@ module Corners = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1827,8 +1914,9 @@ module CountdownTimer = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1847,8 +1935,9 @@ module CounterClockwiseClock = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1867,8 +1956,9 @@ module Crop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1887,8 +1977,9 @@ module Cross1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1907,8 +1998,9 @@ module Cross2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1927,8 +2019,9 @@ module CrossCircled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1947,8 +2040,9 @@ module Crosshair1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1966,8 +2060,9 @@ module Crosshair2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -1986,8 +2081,9 @@ module CrumpledPaper = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2006,8 +2102,9 @@ module Cube = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2026,8 +2123,9 @@ module CursorArrow = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2046,8 +2144,9 @@ module CursorText = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2066,8 +2165,9 @@ module Dash = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2086,8 +2186,9 @@ module Dashboard = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2106,8 +2207,9 @@ module Desktop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2126,8 +2228,9 @@ module Dimensions = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2146,8 +2249,9 @@ module Disc = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2166,8 +2270,9 @@ module DiscordLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2186,8 +2291,9 @@ module DividerHorizontal = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2206,8 +2312,9 @@ module DividerVertical = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2226,8 +2333,9 @@ module DotFilled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2246,8 +2354,9 @@ module Dot = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2266,8 +2375,9 @@ module DotsHorizontal = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2286,8 +2396,9 @@ module DotsVertical = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2306,8 +2417,9 @@ module DoubleArrowDown = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2326,8 +2438,9 @@ module DoubleArrowLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2346,8 +2459,9 @@ module DoubleArrowRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2366,8 +2480,9 @@ module DoubleArrowUp = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2386,8 +2501,9 @@ module Download = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2406,8 +2522,9 @@ module DragHandleDots1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2426,8 +2543,9 @@ module DragHandleDots2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2446,8 +2564,9 @@ module DragHandleHorizontal = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2466,8 +2585,9 @@ module DragHandleVertical = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2486,8 +2606,9 @@ module DrawingPinFilled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2506,8 +2627,9 @@ module DrawingPin = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2526,8 +2648,9 @@ module DropdownMenu = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2546,8 +2669,9 @@ module EnterFullScreen = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2566,8 +2690,9 @@ module Enter = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2586,8 +2711,9 @@ module EnvelopeClosed = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2606,8 +2732,9 @@ module EnvelopeOpen = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2626,8 +2753,9 @@ module Eraser = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2646,8 +2774,9 @@ module ExclamationTriangle = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2666,8 +2795,9 @@ module ExitFullScreen = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2686,8 +2816,9 @@ module Exit = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2706,8 +2837,9 @@ module ExternalLink = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2726,8 +2858,9 @@ module EyeClosed = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2746,8 +2879,9 @@ module EyeNone = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2766,8 +2900,9 @@ module EyeOpen = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2786,8 +2921,9 @@ module Face = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2806,8 +2942,9 @@ module FigmaLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2826,8 +2963,9 @@ module File = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2846,8 +2984,9 @@ module FileMinus = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2866,8 +3005,9 @@ module FilePlus = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2886,8 +3026,9 @@ module FileText = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2906,8 +3047,9 @@ module FontBold = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2926,8 +3068,9 @@ module FontFamily = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2946,8 +3089,9 @@ module FontItalic = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2966,8 +3110,9 @@ module FontRoman = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -2986,8 +3131,9 @@ module FontSize = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3006,8 +3152,9 @@ module FontStyle = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3026,8 +3173,9 @@ module Frame = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3046,8 +3194,9 @@ module FramerLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3066,8 +3215,9 @@ module Gear = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3086,8 +3236,9 @@ module GitHubLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3106,8 +3257,9 @@ module Globe = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3126,8 +3278,9 @@ module Grid = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3146,8 +3299,9 @@ module Group = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3166,8 +3320,9 @@ module Half1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3186,8 +3341,9 @@ module Half2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3206,8 +3362,9 @@ module HamburgerMenu = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3226,8 +3383,9 @@ module Hand = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3246,8 +3404,9 @@ module Heading = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3266,8 +3425,9 @@ module HeartFilled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3286,8 +3446,9 @@ module Heart = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3306,8 +3467,9 @@ module Height = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3326,8 +3488,9 @@ module HobbyKnife = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3346,8 +3509,9 @@ module Home = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3366,8 +3530,9 @@ module IconJarLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3386,8 +3551,9 @@ module IdCard = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3406,8 +3572,9 @@ module Image = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3426,8 +3593,9 @@ module InfoCircled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3446,8 +3614,9 @@ module Input = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3466,8 +3635,9 @@ module InstagramLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3486,8 +3656,9 @@ module Keyboard = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3506,8 +3677,9 @@ module LapTimer = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3526,8 +3698,9 @@ module Laptop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3546,8 +3719,9 @@ module Layers = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3566,8 +3740,9 @@ module Layout = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3586,8 +3761,9 @@ module LetterCaseCapitalize = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3606,8 +3782,9 @@ module LetterCaseLowercase = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3626,8 +3803,9 @@ module LetterCaseToggle = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3646,8 +3824,9 @@ module LetterCaseUppercase = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3666,8 +3845,9 @@ module LetterSpacing = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3686,8 +3866,9 @@ module LightingBolt = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3706,8 +3887,9 @@ module LineHeight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3726,8 +3908,9 @@ module Link1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3746,8 +3929,9 @@ module Link2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3766,8 +3950,9 @@ module LinkBreak1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3786,8 +3971,9 @@ module LinkBreak2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3806,8 +3992,9 @@ module LinkNone1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3826,8 +4013,9 @@ module LinkNone2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3846,8 +4034,9 @@ module LinkedInLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3866,8 +4055,9 @@ module ListBullet = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3886,8 +4076,9 @@ module LockClosed = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3906,8 +4097,9 @@ module LockOpen1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3926,8 +4118,9 @@ module LockOpen2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3946,8 +4139,9 @@ module Loop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3966,8 +4160,9 @@ module MagicWand = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -3986,8 +4181,9 @@ module MagnifyingGlass = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4006,8 +4202,9 @@ module Margin = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4026,8 +4223,9 @@ module MaskOff = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4046,8 +4244,9 @@ module MaskOn = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4066,8 +4265,9 @@ module MinusCircled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4086,8 +4286,9 @@ module Minus = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4106,8 +4307,9 @@ module Mix = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4126,8 +4328,9 @@ module MixerHorizontal = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4146,8 +4349,9 @@ module MixerVertical = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4166,8 +4370,9 @@ module Mobile = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4186,8 +4391,9 @@ module ModulzLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4206,8 +4412,9 @@ module Moon = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4226,8 +4433,9 @@ module Move = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4246,8 +4454,9 @@ module NotionLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4266,8 +4475,9 @@ module Opacity = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4286,8 +4496,9 @@ module OpenInNewWindow = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4306,8 +4517,9 @@ module Overline = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4326,8 +4538,9 @@ module Padding = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4346,8 +4559,9 @@ module PaperPlane = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4366,8 +4580,9 @@ module Pause = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4386,8 +4601,9 @@ module Pencil1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4406,8 +4622,9 @@ module Pencil2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4426,8 +4643,9 @@ module Person = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4446,8 +4664,9 @@ module PieChart = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4466,8 +4685,9 @@ module Pilcrow = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4486,8 +4706,9 @@ module PinBottom = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4506,8 +4727,9 @@ module PinLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4526,8 +4748,9 @@ module PinRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4546,8 +4769,9 @@ module PinTop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4566,8 +4790,9 @@ module Play = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4586,8 +4811,9 @@ module PlusCircled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4606,8 +4832,9 @@ module Plus = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4626,8 +4853,9 @@ module QuestionMarkCircled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4646,8 +4874,9 @@ module QuestionMark = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4666,8 +4895,9 @@ module Quote = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4686,8 +4916,9 @@ module Radiobutton = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4706,8 +4937,9 @@ module Reader = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4726,8 +4958,9 @@ module Reload = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4746,8 +4979,9 @@ module Reset = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4766,8 +5000,9 @@ module Resume = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4786,8 +5021,9 @@ module Rocket = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4806,8 +5042,9 @@ module RotateCounterClockwise = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4826,8 +5063,9 @@ module RowSpacing = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4846,8 +5084,9 @@ module Row = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4866,8 +5105,9 @@ module RulerHorizontal = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4886,8 +5126,9 @@ module RulerSquare = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4906,8 +5147,9 @@ module Scissors = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4926,8 +5168,9 @@ module Section = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4946,8 +5189,9 @@ module SewingPinFilled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4966,8 +5210,9 @@ module SewingPin = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -4986,8 +5231,9 @@ module Shadow = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5006,8 +5252,9 @@ module ShadowInner = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5026,8 +5273,9 @@ module ShadowNone = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5046,8 +5294,9 @@ module ShadowOuter = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5066,8 +5315,9 @@ module Share1 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5086,8 +5336,9 @@ module Share2 = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5106,8 +5357,9 @@ module Shuffle = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5126,8 +5378,9 @@ module Size = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5146,8 +5399,9 @@ module SketchLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5166,8 +5420,9 @@ module Slash = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5186,8 +5441,9 @@ module Slider = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5206,8 +5462,9 @@ module SpaceBetweenHorizontally = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5226,8 +5483,9 @@ module SpaceBetweenVertically = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5246,8 +5504,9 @@ module SpaceEvenlyHorizontally = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5266,8 +5525,9 @@ module SpaceEvenlyVertically = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5286,8 +5546,9 @@ module SpeakerLoud = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5306,8 +5567,9 @@ module SpeakerModerate = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5326,8 +5588,9 @@ module SpeakerOff = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5346,8 +5609,9 @@ module SpeakerQuiet = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5366,8 +5630,9 @@ module Square = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5386,8 +5651,9 @@ module Stack = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5406,8 +5672,9 @@ module StarFilled = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5426,8 +5693,9 @@ module Star = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5446,8 +5714,9 @@ module StitchesLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5466,8 +5735,9 @@ module Stop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5486,8 +5756,9 @@ module Stopwatch = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5506,8 +5777,9 @@ module StretchHorizontally = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5526,8 +5798,9 @@ module StretchVertically = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5546,8 +5819,9 @@ module Strikethrough = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5566,8 +5840,9 @@ module Sun = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5586,8 +5861,9 @@ module Switch = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5606,8 +5882,9 @@ module Symbol = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5626,8 +5903,9 @@ module Table = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5646,8 +5924,9 @@ module Target = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5666,8 +5945,9 @@ module TextAlignBottom = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5686,8 +5966,9 @@ module TextAlignCenter = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5706,8 +5987,9 @@ module TextAlignJustify = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5726,8 +6008,9 @@ module TextAlignLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5746,8 +6029,9 @@ module TextAlignMiddle = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5766,8 +6050,9 @@ module TextAlignRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5786,8 +6071,9 @@ module TextAlignTop = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5806,8 +6092,9 @@ module Text = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5826,8 +6113,9 @@ module TextNone = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5846,8 +6134,9 @@ module ThickArrowDown = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5866,8 +6155,9 @@ module ThickArrowLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5886,8 +6176,9 @@ module ThickArrowRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5906,8 +6197,9 @@ module ThickArrowUp = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5926,8 +6218,9 @@ module Timer = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5946,8 +6239,9 @@ module Tokens = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5966,8 +6260,9 @@ module TrackNext = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -5986,8 +6281,9 @@ module TrackPrevious = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6006,8 +6302,9 @@ module Transform = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6026,8 +6323,9 @@ module TransparencyGrid = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6046,8 +6344,9 @@ module Trash = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6066,8 +6365,9 @@ module TriangleDown = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6086,8 +6386,9 @@ module TriangleLeft = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6106,8 +6407,9 @@ module TriangleRight = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6126,8 +6428,9 @@ module TriangleUp = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6146,8 +6449,9 @@ module TwitterLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6166,8 +6470,9 @@ module Underline = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6186,8 +6491,9 @@ module Update = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6206,8 +6512,9 @@ module Upload = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6226,8 +6533,9 @@ module Value = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6246,8 +6554,9 @@ module ValueNone = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6266,8 +6575,9 @@ module VercelLogo = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6286,8 +6596,9 @@ module Video = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6306,8 +6617,9 @@ module ViewGrid = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6326,8 +6638,9 @@ module ViewHorizontal = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6346,8 +6659,9 @@ module ViewNone = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6366,8 +6680,9 @@ module ViewVertical = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6386,8 +6701,9 @@ module Width = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6406,8 +6722,9 @@ module ZoomIn = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)
@@ -6426,8 +6743,9 @@ module ZoomOut = {
   };
   [@react.component]
   let make =
-    React.forwardRef((~className="", _ref) =>
+    React.forwardRef((~color="currentColor", ~className="", _ref) =>
       <Comp
+        color
         className
         ref=?{
           Js.Nullable.toOption(_ref)->Belt.Option.map(ReactDOM.Ref.domRef)

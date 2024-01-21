@@ -1,6 +1,6 @@
 {
   "name": "melange-radix-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Melange bindings for Radix Icons",
   "scripts": {
     "dune.watch": "opam exec -- dune build -w",

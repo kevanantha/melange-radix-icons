@@ -5074,13 +5074,13 @@ module RowSpacing = {
     );
 };
 
-module Row = {
+module Rows = {
   module Comp = {
     [@mel.module "@radix-ui/react-icons"] [@react.component]
     external make:
       (~color: string=?, ~className: string=?, ~ref: ReactDOM.domRef=?) =>
       React.element =
-      "RowIcon";
+      "RowsIcon";
   };
   [@react.component]
   let make =

@@ -5,7 +5,7 @@ maintainer: ["I Putu Kevin Anantha Vijaya <kevin.anantha@gmail.com>"]
 authors: ["I Putu Kevin Anantha Vijaya <kevin.anantha@gmail.com>"]
 license: "MIT"
 homepage: "https://github.com/kevanantha/melange-radix-icons"
-bug-reports: "https://github.com/kevanantha/melange-radix-icons"
+bug-reports: "https://github.com/kevanantha/melange-radix-icons/issues"
 depends: [
   "dune" {>= "3.12" & >= "3.12"}
   "melange" {>= "2.1.0"}
@@ -14,7 +14,8 @@ depends: [
   "reason-react-ppx"
   "melange-jest" {with-test}
   "opam-check-npm-deps" {with-test}
-  "bisect_ppx" {with-test & >= "2.5.0"}
+  "ocaml-lsp-server" {with-test}
+  "ocamlformat" {with-test}
   "odoc" {with-doc}
 ]
 build: [

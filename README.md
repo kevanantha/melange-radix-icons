@@ -11,7 +11,7 @@ Currently, this package has not been published on opam-repository. see this [lin
 Then:
 
 ```sh
-npm run @radix-ui/react-icons
+npm install @radix-ui/react-icons
 ```
 
 

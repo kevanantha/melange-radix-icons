@@ -5,7 +5,7 @@ maintainer: ["I Putu Kevin Anantha Vijaya <kevin.anantha@gmail.com>"]
 authors: ["I Putu Kevin Anantha Vijaya <kevin.anantha@gmail.com>"]
 license: "MIT"
 homepage: "https://github.com/kevanantha/melange-radix-icons"
-doc: "https://github.com/kevanantha/melange-radix-icons"
+doc: "https://kevanantha.github.io/melange-radix-icons"
 bug-reports: "https://github.com/kevanantha/melange-radix-icons/issues"
 depends: [
   "dune" {>= "3.12" & >= "3.12"}

@@ -1,6 +1,6 @@
 {
   "name": "melange-radix-icons",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Melange bindings for Radix Icons",
   "scripts": {
     "dune.watch": "opam exec -- dune build -w",
@@ -15,7 +15,11 @@
     "react-dom": "^18.0.0",
     "@radix-ui/react-icons": "^1.3.0"
   },
-  "keywords": [ "melange", "radix", "icons" ],
+  "keywords": [
+    "melange",
+    "radix",
+    "icons"
+  ],
   "author": "I Putu Kevin Anantha Vijaya",
   "license": "MIT"
 }

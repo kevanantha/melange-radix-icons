@@ -17,6 +17,8 @@
 
 (bug_reports "https://github.com/kevanantha/melange-radix-icons/issues")
 
+(documentation "https://github.com/kevanantha/melange-radix-icons/blob/main/README.md")
+
 (license "MIT")
 
 (package

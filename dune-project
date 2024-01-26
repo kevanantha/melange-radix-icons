@@ -33,7 +33,6 @@
    (>= 5.1.1))
   reason-react
   reason-react-ppx
-  (melange-jest :with-test)
   (opam-check-npm-deps :with-test) ; todo: use with-dev-setup once opam 2.2 is out
   (ocaml-lsp-server :with-test) ; todo: use with-dev-setup once opam 2.2 is out
   (ocamlformat :with-test) ; todo: use with-dev-setup once opam 2.2 is out

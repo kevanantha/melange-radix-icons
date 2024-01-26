@@ -13,7 +13,6 @@ depends: [
   "ocaml" {>= "5.1.1"}
   "reason-react"
   "reason-react-ppx"
-  "melange-jest" {with-test}
   "opam-check-npm-deps" {with-test}
   "ocaml-lsp-server" {with-test}
   "ocamlformat" {with-test}

@@ -6,12 +6,11 @@
 
 Install [opam](https://opam.ocaml.org/) package manager.
 
-Currently, this package has not been published on opam-repository. see this [link](https://ocaml.org/docs/managing-dependencies#adding-dependencies-from-a-git-repository) for adding deps from a git repository
-
 Then:
 
 ```sh
 npm install @radix-ui/react-icons
+opam install melange-radix-icons
 ```
 
 

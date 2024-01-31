@@ -14,7 +14,7 @@ opam install melange-radix-icons
 ```
 
 
-# Usage
+## Usage
 
 Add `melange-radix-icons` to the `libraries` in your `dune` file:
 
